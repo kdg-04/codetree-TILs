@@ -1,9 +1,8 @@
 x, y, z = map(int, input().split(" "))
-min = x
 
-if min > y:
-    min = y
-if min > z:
-    min = z
-
-print(min)
+if x < y and x < z:
+    print(x)
+elif y < x and y < z:
+    print(y)
+else:
+    print(z)
