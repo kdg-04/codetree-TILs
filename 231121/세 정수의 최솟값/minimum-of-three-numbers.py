@@ -3,7 +3,7 @@ min = x
 
 if min > y:
     min = y
-elif min > z:
+if min > z:
     min = z
 
 print(min)
