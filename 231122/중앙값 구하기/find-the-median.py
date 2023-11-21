@@ -1,16 +1,8 @@
 x, y, z = map(int, input().split())
 
-if a > b:
-    if c > a:
-        print(a)
-    elif b > c:
-        print(b)
-    else:
-        print(c)
+if (z >= x >= y) or (y >= x >= z):
+    print(x)
+elif (x >= y >= z) or (z >= y >= x):
+    print(y)
 else:
-    if c > b:
-        print(b)
-    elif a > c:
-        print(a)
-    else:
-        print(c)
+    print(z)
