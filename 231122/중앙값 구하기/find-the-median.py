@@ -1,4 +1,4 @@
-x, y, z = map(int, input().split())
+a, b, c = map(int, input().split())
 
 if a > b:
     if c > a:
