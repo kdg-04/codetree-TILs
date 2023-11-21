@@ -1,6 +1,6 @@
 n = int(input())
 
-if 12 == n and n == 1:
+if 12 == n or n == 1:
     print("31")
 elif 3 <= n <= 7:
     if n % 2 == 0:
