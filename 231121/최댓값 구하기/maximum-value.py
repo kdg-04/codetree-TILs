@@ -1,10 +1,12 @@
 x, y, z = map(int, input().split())
-max = x
 
-if max <= y:
-    if max <= z:
-        max = z
+if x >= y:
+    if x >= z:
+        print(x)
     else:
-        max = y
-
-print(max)
+        print(z)
+elif y >= x:
+    if y >= z:
+        print(y)
+    else:
+        print(z)
