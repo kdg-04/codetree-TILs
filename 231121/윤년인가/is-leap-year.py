@@ -5,5 +5,7 @@ if y % 4 == 0:
         print("true")
     elif y % 400 == 0:
         print("true")
+    else:
+        print("false")
 else:
     print("false")
