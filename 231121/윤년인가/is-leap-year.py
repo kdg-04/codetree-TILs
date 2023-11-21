@@ -2,10 +2,11 @@ y = int(input())
 
 if y % 4 == 0:
     if y % 100 != 0:
-        print("true")
-    elif y % 400 == 0:
-        print("true")
+        if y % 400 == 0:
+            print("true")
+        else:
+            print("false")
     else:
-        print("false")
+        print("true")
 else:
     print("false")
