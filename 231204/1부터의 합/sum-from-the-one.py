@@ -1,9 +1,11 @@
 n = int(input())
-x = 0
+prod = 0
+ans = -1
 
 for i in range(1, 101):
-    x += i
-    if x > n:
+    prod += i
+    if prod > n:
+        ans = i
         break
 
 print(i)
