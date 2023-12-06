@@ -1,10 +1,9 @@
 n = int(input())
-i = 1
 cnt = 0
 
-while n > 1:
-    n = n // i
-    i += 1
+for i in range(1, n + 1):
+    if n <= 1:
+        print(cnt)
+        break
+    n //= i
     cnt += 1
-
-print(cnt)
