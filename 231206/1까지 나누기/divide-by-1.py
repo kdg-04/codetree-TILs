@@ -3,7 +3,7 @@ i = 1
 cnt = 0
 
 while n > 1:
-    n /= i
+    n = n // i
     i += 1
     cnt += 1
 
