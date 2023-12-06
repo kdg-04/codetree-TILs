@@ -1,11 +1,10 @@
 n = int(input())
+i = 1
 cnt = 0
 
-for i in range(1, n+1):
-    val = n / i
-    n = val
-    
-    if n <= 1:
-        break
+while n > 1:
+    n /= i
+    i += 1
+    cnt += 1
 
-print(i)
+print(cnt)
