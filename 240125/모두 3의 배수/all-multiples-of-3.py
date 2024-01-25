@@ -1,14 +1,9 @@
-Drainage = True
-for _ in range(5):
-    n = int(input())
+result = 1
 
-    if n % 3 == 0:
-        continue
-    else:
-        Drianage = False
+for _ in range(5):
+    num = int(input())
+    if num % 3 != 0:
+        result = 0
         break
-    
-if Drianage == True:
-    print(1)
-else:
-    print(0)
+
+print(result)
